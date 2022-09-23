@@ -57,7 +57,7 @@
                     <!-- CHECKOUT -->
                 </div>
                 <div class="delay" style="display: none;">
-                    <a href="https://pay.kiwify.com.br/PLOqFia" class="btn">
+                    <a href="https://checkout.mycheckout.com.br/checkout/632e3665c5ed106e1b1cfbaf" class="btn">
                         <i class="fas fa-shopping-cart"></i>
                         ❌  R̶$̶ ̶2̶97̶,̶0̶0̶   SÓ AGORA ✅ R$ 127,00
                         
@@ -102,7 +102,7 @@
                       </div>
                     </div>  
                 </div>
-                <a href="https://pay.kiwify.com.br/PLOqFia" class="btn">
+                <a href="https://checkout.mycheckout.com.br/checkout/632e3665c5ed106e1b1cfbaf" class="btn">
                  <i class="fas fa-shopping-cart"></i>
                     QUERO GARANTIR MEU ACESSO
                             
@@ -170,7 +170,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
-                        <a href="https://pay.kiwify.com.br/PLOqFia" class="btn">
+                        <a href="https://checkout.mycheckout.com.br/checkout/632e3665c5ed106e1b1cfbaf" class="btn">
                            <i class="fas fa-shopping-cart"></i>
                             GARANTIR ACESSO
                         </a>
@@ -270,27 +270,6 @@
             
         </script>
         
-        <script>
-        let prefix = ["https://pay.kiwify.com.br"];
-        function getParams() {
-            let t = "",
-                e = window.top.location.href,
-                r = new URL(e);
-            if (null != r) {
-                let a = r.searchParams.get("utm_source"),
-                    n = r.searchParams.get("utm_medium"),
-                    o = r.searchParams.get("utm_campaign"),
-                    m = r.searchParams.get("utm_term"),
-                    c = r.searchParams.get("utm_content"); - 1 !== e.indexOf("?") && (t = `&sck=${a}|${n}|${o}|${m}|${c}`), console.log(t)
-            }
-            return t
-        }! function() {
-            var t = new URLSearchParams(window.location.search);
-            t.toString() && document.querySelectorAll("a").forEach(function(e) {
-                for (let r = 0; r < prefix.length; r++) - 1 !== e.href.indexOf(prefix[r]) && (-1 === e.href.indexOf("?") ? e.href += "?" + t.toString() + getParams() : e.href += "&" + t.toString() + getParams())
-            })
-        }(); 
-        </script>
         
     </body>
     
